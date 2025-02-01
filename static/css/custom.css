@@ -1,0 +1,58 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 76px;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: calc(100vh - 76px);
+    background-color: var(--bs-dark);
+    padding: 4rem 0;
+}
+
+/* Sections */
+section {
+    padding: 5rem 0;
+}
+
+/* Card Hover Effect */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Navigation */
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(var(--bs-dark-rgb), 0.9);
+}
+
+/* Images */
+.img-fluid {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styling */
+.form-control:focus {
+    border-color: var(--bs-primary);
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+/* Animation Classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
