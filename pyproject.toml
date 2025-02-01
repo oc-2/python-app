@@ -1,7 +1,7 @@
 [project]
-name = "repl-nix-workspace"
+name = "python-app"
 version = "0.1.0"
-description = "Add your description here"
+description = ""
 requires-python = ">=3.11"
 dependencies = [
     "email-validator>=2.2.0",
