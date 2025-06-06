@@ -2,8 +2,6 @@
 
 A landing page python app called "StartupX" that runs on python flask. It contains a home, about, features, and a contact page.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/oc-2/python-app)
-
 ## Licence
 
 Copyright (c) 2025 oc-2
