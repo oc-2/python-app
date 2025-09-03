@@ -1,6 +1,6 @@
 # python-app
 
-A landing page python app called "StartupX" that runs on python flask. It contains a home, about, features, and a contact page.
+A landing page Python app called "StartupX" that runs on Python Flask. It contains a home, about, features, and a contact page.
 
 ### How to use
    1. Clone The Repository
