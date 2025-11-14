@@ -27,5 +27,5 @@ A landing page Python app called "StartupX" that runs on Python Flask. It contai
 
 Copyright (c) 2025 oc-2
 
-This software is released under the terms of the MIT License.
+This software is released under the terms of the BSD License.
 See the [LICENSE](LICENSE) file for further information.
