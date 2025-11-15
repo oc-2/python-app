@@ -1,27 +1,27 @@
 # python-app
 
-A landing page Python app called "StartupX" that runs on Python Flask. It contains a home, about, features, and a contact page.
+A landing page Python app called "StartupX" that runs on Django. It contains a home, about, features, and a contact page.
 
 ### How to use
    1. Clone The Repository
-   ```
+   ```bash
  git clone https://github.com/oc-2/python-app.git && cd python-app
    ```
-   2. Launch Pipenv shell
-   ```
- pipenv shell
+   2. Create and activate a virtual enviroment
+   ```bash
+   python3 -m venv virt
+source virt/bin/activate   # Linux/macOS
+virt\Scripts\activate      # Windows
    ```
    3. Install dependencies
    ```
- pipenv install
+ pip install -r requirements.txt
    ```
-   4. Run main.py
+   4. Start the development server
    ```
-   python main.py
+   python manage.py runserver
    ```
-   5. Go to `http://localhost:5000/` server
-
-**NOTE**: To exit Pipenv shell, type `exit` on your terminal. Have fun :)
+   5. Go to `http://localhost:8000/` server
 
 ## Licence
 
