@@ -20,16 +20,9 @@ SECRET_KEY = 'django-insecure-#dr59^cemaqqeksxqp&7rrsbi()woe!x_$1c6yb9^)64p$$h0_
 
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    '0.0.0.0',
-    'd7718da9-3d72-459c-92f5-234fe5f9a539-00-1nj0o91j0evo9.spock.replit.dev',
-]
+ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://d7718da9-3d72-459c-92f5-234fe5f9a539-00-1nj0o91j0evo9.spock.replit.dev',
-]
+CSRF_TRUSTED_ORIGINS = []
 
 # Application definition
 INSTALLED_APPS = [
