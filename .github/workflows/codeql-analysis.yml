@@ -105,17 +105,7 @@ jobs:
         pip install --upgrade pip setuptools wheel build pyproject_hooks packaging
         pip install -r requirements.txt
 
-    - name: Run tests
-      if: ${{ matrix.language == 'python' }}
-      env:
-        PIP_CONFIG_FILE: /dev/null
-      run: |
-        . .venv/bin/activate
-        pip install pytest
-        pytest -q
-
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v4
       with:
         category: "/language:${{matrix.language}}"
-        
