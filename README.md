@@ -1,4 +1,5 @@
 # python-app
+[![PyPI downloads](https://img.shields.io/pypi/v/oc-2-python-app.svg)](https://pypi.org/project/oc-2-python-app/)
 
 A landing page Python app called "StartupX" that runs on Django. It contains a home, about, features, and a contact page.
 

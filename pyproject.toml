@@ -1,6 +1,6 @@
 [project]
 name = "oc-2-python-app"
-version = "0.1.0"
+version = "0.1.1"
 description = "A landing page Python app called \"StartupX\" that runs on Django. It contains a home, about, features, and a contact page."
 authors = [{ name = "oc-2" }]
 license = { file = "LICENSE" }
@@ -22,23 +22,21 @@ dependencies = [
 ]
 
 classifiers = [
-  "Environment :: Web Environment",
-  "Framework :: Django",
-  "Framework :: Django :: 5.2",
-  "License :: OSI Approved :: MIT License",
-  "Natural Language :: English",
-  "Operating System :: OS Independent",
-  "Programming Language :: Python",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
-  "Programming Language :: Python :: 3.13",
-  "Topic :: Internet :: WWW/HTTP",
-  "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
-  "Topic :: Internet :: WWW/HTTP :: WSGI",
-  "Topic :: Software Development :: Libraries :: Application Frameworks",
-  "Topic :: Software Development :: Libraries :: Python Modules",
-  "Topic :: Software Development :: Libraries :: Python Modules :: Django",
-  "Topic :: Software Development :: Libraries :: Python Modules :: Django :: 5.2"
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 5.0",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: WSGI",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
 [build-system]
