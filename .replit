@@ -25,9 +25,13 @@ args = "python manage.py runserver 0.0.0.0:8000"
 waitForPort = 8000
 
 [[ports]]
+localPort = 3000
+externalPort = 3000
+
+[[ports]]
 localPort = 8000
-externalPort = 8000
-exposeLocalhost = true
+externalPort = 80
 
 [agent]
 expertMode = true
+stack = "BEST_EFFORT_FALLBACK"
